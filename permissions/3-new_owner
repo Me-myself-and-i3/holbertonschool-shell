@@ -1,6 +1,2 @@
 #!/bin/bash
-<<<<<<< HEAD
-chown betty /hello
-=======
-sudo chown betty tmp/hello
->>>>>>> cf38f7eefc460423d32c819415b0cc8d1d8fb282
+chown betty: hello 
