@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Define the filename
+FILENAME="new_script.sh"
+
+# Create a new file
+touch $FILENAME
+
+# Open the file with Emacs
+emacs $FILENAME &
+
+# Add the shebang to the file
+echo "#!/bin/bash" > $FILENAME
+
+# Make the file executable
+chmod +x $FILENAME
+
+echo "File $FILENAME created, opened in Emacs, shebang added, and made executable."
